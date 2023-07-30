@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quattrocento:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">CryptoTracker</div>
+        <div class="nav">
+            <div class="toggle">
+              
+            </div>
+            <div class="navbar">
+                <a href="#" id="home">Home</a>
+                <a href="#" id="compare">Compare</a>
+                <a href="#" id="watchlist">Watchlist</a>
+                <a href="#" class="active" id="dashboard">DashBoard</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="gridOrList">
+            <button onclick="showPanel(1)" id="grid" class="panel-btn">Grid</button>
+            <button onclick="showPanel(2)" id="list" class="panel-btn">List</button>
+        </div>
+        
+
+        <div class="panels">
+            <div id="container">
+
+            </div>
+        
+
+            <div id="container1">
+                 <table>
+    
+                 </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="./code.js"></script>
+</body>
+</html>

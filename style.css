@@ -1,0 +1,174 @@
+*{
+    background-color: #111111;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', serif;
+}
+
+a{
+    text-decoration: none;
+    color: #888888;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+/* .active{
+    background-color: #4A80E2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 35%;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+}
+
+.gridOrList{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gridOrList button{
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.card{
+    /* background-color: #1B1B1B; */
+
+    box-shadow: 2px 2px 2px #1B1B1B;
+    width:300px;
+    background-color: #1B1B1B;
+    padding: 15px;
+    font-size:18px;
+    border-radius: 10px;
+
+}
+
+.card div p{
+    background-color: #1B1B1B;
+    margin: 0;
+}
+
+.mid{
+    width:100px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 2px solid #7CC678;
+    background-color: #1B1B1B;
+    color: #7CC678;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 30px;
+    
+}
+.bottom{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    background-color: #1B1B1B;
+    margin-bottom: 20px;
+}
+.price{
+    color: #7CC678;
+    
+}
+
+p{
+    color: #888888;
+}
+
+.logo{
+    background-color: #1B1B1B;
+
+}
+
+.logo img{
+    width:50px;
+    height:50px;
+    background-color: #1B1B1B;
+}
+
+.top{
+    display: flex;
+    gap:20px;
+    margin-bottom: 30px;
+    background-color: #1B1B1B;
+    align-items: center;
+    margin-top: 20px;
+}
+#container1{
+    margin-left: 60px;
+    margin-right: 30px;
+    display: grid;
+}
+/* .container1 table tr td{
+    border: 1px solid red;
+} */
+
+table{
+    width: 100%;
+    text-align:left;
+    font-size: 20px;
+    border-spacing: 0 20px;
+}
+
+.top1{
+    display: flex;
+    gap:20px;
+}
+
+.logo1 img{ 
+    width:50px;
+    height:50px;
+    
+}
+
+.logo1{
+    align-self: center;
+}
+
+.name > p{
+    margin: 0;
+}
+
+.name{
+    display: grid;
+    align-self: center;
+    justify-items: flex-start;
+}
+
+.mid1{
+    margin: auto;
+    width:100px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 2px solid #7CC678;
+    background-color: #1B1B1B;
+    color: #7CC678;
+    text-align: center;
+    padding: 8px;
+    
+}
+
